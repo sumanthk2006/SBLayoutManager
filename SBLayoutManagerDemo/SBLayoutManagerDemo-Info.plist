@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIconFiles</key>
+	<array/>
+	<key>CFBundleIdentifier</key>
+	<string>org.breeno.${PRODUCT_NAME:rfc1034identifier}</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>Accomplishments</key>
+	<array>
+		<dict>
+			<key>image</key>
+			<string>1.png</string>
+			<key>year</key>
+			<integer>1977</integer>
+			<key>title</key>
+			<string>APPLE II</string>
+			<key>description</key>
+			<string>Steve Jobs famously started Apple Computer in his parents&apos; garage with his friend Steve Wozniak. Wozniak would say later he was the engineer on the team, while Jobs was the big-think guy.
+
+There were other personal computers on the market already. Jobs and Wozniak packaged theirs in a clean, wedge-shaped case with a monitor and a minimum of cables. There was little assembly required. It was something you wouldn&apos;t mind having on your desk or in your bedroom.
+
+You could buy it at a starting price under $1,300 -- pricier than the competition, but within reach for middle-class families. Jobs and Wozniak had begun moving the computer from the laboratory to your lap.</string>
+		</dict>
+		<dict>
+			<key>image</key>
+			<string>2.png</string>
+			<key>year</key>
+			<integer>1981</integer>
+			<key>title</key>
+			<string>APPLE III</string>
+			<key>description</key>
+			<string>If something works, you make it bigger and better, right? Steve Jobs learned otherwise. The Apple III was meant as a business computer, more powerful than its predecessors. But the hardware was unreliable -- and the machine came just as IBM, the behemoth of computing, introduced its first desktop PC. Apple quickly lost business users to IBM -- with its software made by another 1970s startup, Microsoft. Soon there were countless clones of the IBM, using Microsoft&apos;s MS-DOS software. Apple became a niche company.</string>
+		</dict>
+		<dict>
+			<key>image</key>
+			<string>3.png</string>
+			<key>year</key>
+			<integer>1984</integer>
+			<key>title</key>
+			<string>The Macintosh</string>
+			<key>description</key>
+			<string>Everybody called it the Mac. It was an artfully rounded box with a black and white screen and places to plug in a keyboard and a mouse. The earliest computer mouse dated back to the 1960s; Steve Jobs made it popular.
+
+The Mac was, above all, &quot;gooey.&quot; GUI was an acronym, short for Graphical User Interface. What you saw on the screen -- what you drew with your mouse, perhaps, or typed in a font that resembled a calligrapher&apos;s writing -- was what ended up in your printout. Apple&apos;s MacWrite word processor, included with the machine, was in large part a graphics program; the fact that the graphics were words was almost incidental.
+
+The first Macintosh was not a great success. With 128K of memory, it was not powerful enough to do all that Jobs&apos; team asked of it, and having places to plug in more components would have compromised the sleek design. Jobs did not make that mistake again. Later Macs were more expensive but had more memory, and sold for a decade.</string>
+		</dict>
+		<dict>
+			<key>image</key>
+			<string>4.png</string>
+			<key>year</key>
+			<integer>1985</integer>
+			<key>title</key>
+			<string>The NeXT Computer</string>
+			<key>description</key>
+			<string>In 1985, at the age of 30, Steve Jobs was fired by his own company. He lost a power struggle with John Scully, the man he had brought in to run Apple while he specialized in developing products.
+
+Devastated, Jobs cast around for other things to do, and finally decided to start a new company. He called it NeXT. It built computer workstations and made the operating systems for them. They were machines with power graphics, designed principally for universities and students. NeXT was not a success -- but without Jobs, Apple was not much of one either. In 1996 Apple bought NeXT for $429 million and 1.5 million shares of Apple stock, and a year later Jobs was named CEO of his old shop.</string>
+		</dict>
+		<dict>
+			<key>image</key>
+			<string>5.png</string>
+			<key>year</key>
+			<integer>2000</integer>
+			<key>title</key>
+			<string>The Cube</string>
+			<key>description</key>
+			<string>You have to admit it was original. This small desktop computer was a work of art, encased in a cube of clear plastic. It had no cooling fan -- heat naturally rose from its top -- so it was almost silent. Jobs, back at Apple after a decade starting NeXT Computer and making Pixar Animation Studios a success, needed to turn practical again. The Cube won design awards, but it didn&apos;t really offer any functional benefits over other desktop computers. Apple&apos;s designs are iconic, but Jobs learned that people aren&apos;t usually willing to pay a premium for design alone.</string>
+		</dict>
+		<dict>
+			<key>image</key>
+			<string>6.png</string>
+			<key>year</key>
+			<integer>2001</integer>
+			<key>title</key>
+			<string>The iPod</string>
+			<key>description</key>
+			<string>By 2001 the music industry was on its knees. The advent of digital recording had made it possible for people to copy music without losing audio quality -- and they could now share their collections on the Internet, no matter how hard record labels tried to stop them. There was no need for people to buy CDs.
+
+Steve Jobs turned crisis into opportunity. The iPod was really little more than a computer hard drive with a simple round control and a set of white earbuds. People could store hundreds of songs on it -- and buy them for 99 cents each from the iTunes online store. The big home stereo became obsolete, and the record companies struggled as people bought individual songs instead of albums, but music remained.</string>
+		</dict>
+		<dict>
+			<key>image</key>
+			<string>7.png</string>
+			<key>year</key>
+			<integer>2006</integer>
+			<key>title</key>
+			<string>Refining the Laptop</string>
+			<key>description</key>
+			<string>Jobs and Wozniak began Apple with a desktop computer, then helped make it obsolete. Laptops -- made by Apple and others -- now did everything a desktop could. With the MacBook, Jobs liberated Apple from its niche role in the personal computer business. By 2008 it was the best-selling laptop brand in American retail stores.
+
+Yes, it was sleek, easy to use, and great for video. It also succeeded because of Apple&apos;s premium service, as Apple Stores in high-end locations began to dot the country.</string>
+		</dict>
+		<dict>
+			<key>image</key>
+			<string>8.png</string>
+			<key>year</key>
+			<integer>2007</integer>
+			<key>title</key>
+			<string>The iPhone</string>
+			<key>description</key>
+			<string>The revolution of the smartphone (and the obsessive, frantic buyer&apos;s need to have one) started with typical Apple fanfare.
+
+Apple debuted the iPhone at the Macworld convention in January 2007, but in keeping with the company&apos;s traditional secrecy, it didn&apos;t announce the phone&apos;s public release date until June 3, 2007 -- remember the &quot;Mmm, did someone say calamari&quot; ad? The iPhone was then released in stores on June 29, 2007.
+
+Lines snaked around Apple stores across the country as people waited for the phone.
+
+The first iPhone combined Apple&apos;s immensely popular mp3 player, the iPod, with smartphone capabilities: surfing the Internet, checking email, playing movies, messaging friends and -- oh, yeah -- making phone calls. All that came in one sleek, lightweight package.
+
+There were many, many cellphones before the iPhone, dating back to 1983 in the United States. Jobs made the smartphone wicked cool.</string>
+		</dict>
+		<dict>
+			<key>image</key>
+			<string>9.png</string>
+			<key>year</key>
+			<integer>2010</integer>
+			<key>title</key>
+			<string>The iPad</string>
+			<key>description</key>
+			<string>It&apos;s so simple. It&apos;s so flat. It does everything. The iPad, introduced by Jobs in 2010, has revolutionized what Jobs revolutionized at the beginning of his career. Its touch screen can be used for video, movies, digital books, games, accounting, writing, email -- almost anything, because the screen shows almost anything a software developer can conceive.
+
+Go back to the beginning of this story and compare it to the Apple II. Jobs never stopped reinventing what he had created. The iPad can be a TV, radio, camera, toy, cash register, notepad, instruction book, or a million other things. The fact that it contains a computer is almost incidental.
+
+&quot;We do no market research. We don&apos;t hire consultants,&quot; he once said. &quot;We just want to make great products.&quot;</string>
+		</dict>
+	</array>
+</dict>
+</plist>
