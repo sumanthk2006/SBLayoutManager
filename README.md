@@ -1,8 +1,9 @@
 # SBLayoutManager
 ## A minimalist layout manager to augment Struts and Springs to support variable width and height UILabel elements.
 
-Struts and springs - used correctly - can take you pretty far in iOS interfaces.  Simple, elegant and easy to understand they solve many use cases.
-However, there are times with interfaces call for a layout that is more variable depending on the data being displayed.  This is why I developed SBLayoutManager.  It is NOT a complete layout manager like Core Animations constraints based manager or the new - and super cool - Cocoa Autolayout manager (which, unfortunately, neither are available on iOS). It is, however, a simple library that can handle some common use cases to augment your use of Struts and Springs.
+Struts and springs - used correctly - can take you pretty far in most iOS interfaces.
+However, there are times where more complex UIs need data-centric layouts that require manual code to support. 
+This is why I developed SBLayoutManager.  It is NOT a complete layout manager like Core Animations constraints based manager or the new - and super cool - Cocoa Autolayout manager (which, unfortunately, neither are available on iOS). It is, however, a simple library that can handle some common use cases to augment your use of Struts and Springs.
 
 ## Example Usage
 
