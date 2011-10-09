@@ -48,7 +48,6 @@
 	[_layoutManager viewIsVariableHeight: self.descriptionLabel];
 	[_layoutManager view: self.footerLabel isBelowView: self.descriptionLabel];
 
-	[[self view] showAllBoundingRects];
 	[self configureBarButtonItems];	
 	[self updateCurrentAccomplishment];
 }
@@ -74,6 +73,7 @@
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
+	[_layoutManager layout];
 }
 
 - (void)viewWillDisappear:(BOOL)animated
@@ -107,39 +107,36 @@
 	[self updateCurrentAccomplishment];
 }
 
--(void) toggleImageDisplay: (id) sender
+-(void) toggleBoundingRects: (id) sender
 {
-	[_layoutManager restoreLayout];
-	[_layoutManager view: self.imageView isCollapsed: ![_layoutManager isViewCollapsed: self.imageView]];
-	[_layoutManager layout];
+	_showBoundingRects = !_showBoundingRects;
+	if( _showBoundingRects )
+	{
+		[[self view] showAllBoundingRects];
+	}
+	else
+	{
+		[[self view] hideAllBoundingRects];
+	}
+	
 	[self configureBarButtonItems];
 }
-
 
 #pragma mark- Internal Methods
 
 -(void) configureBarButtonItems
 {
+	NSString *boundingRectTitle = _showBoundingRects ? NSLocalizedString(@"Hide Bounds", @"Hide Bounds") : NSLocalizedString(@"Show Bounds",  @"Show Bounds");
+	
+	self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle: boundingRectTitle
+																			 style: UIBarButtonItemStyleBordered
+																			target: self
+																			action: @selector(toggleBoundingRects:)];
+	
 	self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle: NSLocalizedString(@"Next", @"Next") 
 																			  style: UIBarButtonItemStyleDone
 																			 target: self 
 																			 action: @selector(next:)];
-	
-	if( [_layoutManager isViewCollapsed: self.imageView] )
-	{
-		self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle: NSLocalizedString( @"Show Images", @"")
-																				 style: UIBarButtonItemStyleBordered
-																				target: self
-																				action: @selector(toggleImageDisplay:)];
-	}
-	else
-	{
-		self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle: NSLocalizedString( @"Hide Images", @"")
-																				 style: UIBarButtonItemStyleBordered
-																				target: self
-																				action: @selector(toggleImageDisplay:)];
-
-	}
 }
 
 -(void) updateCurrentAccomplishment

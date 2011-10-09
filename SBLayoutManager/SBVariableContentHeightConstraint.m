@@ -28,7 +28,18 @@
 	CGFloat height = self.constrainedItem.frame.size.height;
 	if( [self.constrainedItem isLabel] )
 	{
-		height = [[self.constrainedItem valueForKeyPath: @"view.text"] sizeWithFont: self.constrainedItem.font constrainedToSize: CGSizeMake(self.constrainedItem.frame.size.width, self.maxHeight) lineBreakMode: self.constrainedItem.lineBreakMode].height; 
+		UILabel *label = (UILabel *)self.constrainedItem.view;
+		
+		// smart defaults, making this library a bit simpler to use without having to properly set the NIB up in a specific way.
+		if( label.numberOfLines > 0 )
+		{
+			label.numberOfLines = 0;
+		}
+		if( label.lineBreakMode != UILineBreakModeWordWrap && label.lineBreakMode != UILineBreakModeCharacterWrap )
+		{
+			label.lineBreakMode = UILineBreakModeWordWrap;
+		}
+		height = [label.text sizeWithFont: self.constrainedItem.font constrainedToSize: CGSizeMake(self.constrainedItem.frame.size.width, self.maxHeight) lineBreakMode: self.constrainedItem.lineBreakMode].height; 
 	}
 	else 
 	{

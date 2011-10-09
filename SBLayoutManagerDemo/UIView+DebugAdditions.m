@@ -10,7 +10,17 @@
 	{
 		view.clipsToBounds = YES;
 		view.layer.borderWidth = 1.0;
-		view.layer.borderColor = [UIColor blackColor].CGColor;
+		view.layer.borderColor = [[UIColor blackColor] CGColor];
+	}
+}
+
+-(void) hideAllBoundingRects
+{
+	for( UIView *view in [self allSubviews] )
+	{
+		view.clipsToBounds = YES;
+		view.layer.borderWidth = 0.0;
+		view.layer.borderColor = [[UIColor clearColor] CGColor];
 	}
 }
 

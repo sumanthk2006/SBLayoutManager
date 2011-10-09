@@ -4,6 +4,6 @@
 @interface UIView(DebugAdditions)
 
 -(void) showAllBoundingRects;
-
+-(void) hideAllBoundingRects;
 
 @end

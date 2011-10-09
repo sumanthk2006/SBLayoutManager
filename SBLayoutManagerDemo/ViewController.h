@@ -13,6 +13,7 @@
 {
 	SBLayoutManager		*_layoutManager;
 	NSInteger			_currentAccomplishmentIndex;
+	BOOL				_showBoundingRects;
 }
 
 @property (weak, nonatomic) IBOutlet	UILabel		*titleLabel;
