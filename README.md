@@ -1,5 +1,5 @@
 # SBLayoutManager
-## A minimalist layout manager to augment Struts and Springs to support variable width and height UILabel elements.
+## A minimalist layout manager to augment Struts and Springs
 
 Struts and springs - used correctly - can take you pretty far in most iOS interfaces.
 However, there are times where more complex UIs need data-centric layouts that require manual code to support. 
